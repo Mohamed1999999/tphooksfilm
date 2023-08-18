@@ -8,7 +8,8 @@ const MovieList = ({movies}) => {
                 <MovieCard key={movie.id}
                  title={movie.title} 
                 description={movie.description}
-                 rating={movie.rating}/>
+                 rating={movie.rating}
+                 linkvideo={movie.linkvideo}/>
             ))};
         </div>
     );
